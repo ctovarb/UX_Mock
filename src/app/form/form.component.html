@@ -1,0 +1,101 @@
+<div class="row" style="height: 10vh; padding: 0%;">
+  <div class="col-4">
+    <h1>Home</h1>
+  </div>
+  <div class="col-8"></div>
+</div>
+<div class="row"  style="height: 80vh;">
+  <div class="col-4">
+    <div class="row">
+      <h2>Alarmas</h2>
+    </div>
+    <div class="row">
+      <img class="img_crear" src="../../assets/Agregar_alarma.png" />
+    </div>
+  </div>
+  <div class="col-8">
+
+    <div class="d-flex" style="height: 100%; color: #770C10; ">
+      <div class="vr" style="width: 2px"></div>
+
+        <form class="centrar">
+          <legend class="hh">Nueva Alarma</legend>
+          <div class="row">
+            <div class="col form-group mx-sm-3 mb-2">
+              <label class="form_input">NOMBRE</label>
+              <input class="form-control" />
+            </div>
+
+            <div class="col form-group mx-sm-3 mb-2">
+              <label class="form_input">HORA INICIAL</label>
+              <input class="form-control" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col form-group mx-sm-3 mb-2">
+              <label class="form_input">DOSIS</label>
+              <input class="form-control" />
+            </div>
+
+            <div class="col form-group mx-sm-3 mb-2">
+              <label class="form_input">CATEGORIA</label>
+              <input class="form-control" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col form-group mx-sm-3 mb-2">
+              <label class="form_input"> DURACION </label>
+              <input class="form-control" placeholder="desde" type="date"/>
+            </div>
+            <div class="col form-group mx-sm-3 mb-2">
+              <label class="form_input"> MEDICAMENTOS RESTANTES </label>
+              <input class="form-control" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col form-group mx-sm-3 mb-2">
+              <label class="form_input"></label>
+              <input class="form-control" placeholder="hasta" type="date"/>
+            </div>
+            <div class="col form-group mx-sm-3 mb-2">
+              <label class="form_input"> RECORDATORIO COMPRA </label>
+              <input class="form-control"/>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col form-group mx-sm-3 mb-2">
+              <label class="form_input">PERIODICIDAD</label>
+              <input class="form-range range1" type="range"/>
+            </div>
+          </div>
+          <hr/>
+          <div class="row">
+            <div class="col"></div>
+            <div class="col">
+              <button type="submit" class="btn btn-primary">Guardar</button>
+            </div>
+            <div class="col">
+              <button type="button" class="btn btn-danger ml-3">Cancelar</button>
+            </div>
+            <div class="col"></div>
+          </div>
+        </form>
+      </div>
+    </div>
+</div>
+<div class="row" style="height: 10vh;">
+  <div class="col-6" style="height: 10vh;">
+    <a [routerLink]="['/home']">
+      <img class="next" src="../../assets/Previous.png" />
+    </a>
+  </div>
+  <div class="col-6" style="height: 10vh;">
+    <a [routerLink]="['/created']">
+      <img class="next" src="../../assets/next.png" />
+    </a>
+  </div>
+</div>

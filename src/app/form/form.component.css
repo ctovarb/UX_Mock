@@ -1,0 +1,78 @@
+h1{
+  font-family: "Magra";
+  text-align:left;
+  padding-top: 0.9em;
+  color: #770C10;
+  position : relative;
+  top : 5%;
+  left: 5%;
+}
+
+h2{
+  font-family: "Magra";
+  text-align:center;
+  color: #770C10;
+  position : relative;
+  margin: 10% 0%;
+
+}
+
+.hh{
+  font-family: "Magra";
+  text-align:center;
+  color: #770C10;
+  position : relative;
+  margin: 10% 0%;
+}
+
+.img_crear {
+  height: 50px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.centrar{
+
+  display: block;
+  margin: 0 auto;
+}
+
+.img_logo {
+  height: 50%;
+  width: auto;
+  display: block;
+  margin: auto;
+  opacity: 65%;
+}
+
+.next{
+  height: 50%;
+  width: auto;
+  margin: auto;
+  display: block;
+  margin: 0 auto;
+}
+.btn {
+  margin-left: 2%;
+}
+
+.form_input{
+    font-family: "Magra";
+    color: #000000;
+}
+
+.range1::-webkit-slider-thumb {
+  background: #770C10;
+}
+.range1::-moz-range-thumb {
+  background: #770C10;
+}
+
+.range1::-ms-thumb {
+  background: #770C10;
+}
+
+.btn-primary{
+  background-color: #F48B93;
+}
